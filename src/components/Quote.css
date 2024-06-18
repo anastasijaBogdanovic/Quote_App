@@ -1,0 +1,90 @@
+.quote {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: blueviolet;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quote-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+.quote-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.quote-author {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0;
+  align-self: flex-end;
+}
+.vote-count-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.3rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 30px;
+}
+    
+.quote-actions .rate-button {
+  border: none;
+  background-color: blueviolet;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+    
+.quote-actions .rate-button.active {
+  background-color: white;
+}
+    
+.quote-actions .positive-icon,
+.quote-actions .negative-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+    
+.quote-actions .positive-icon.active,
+.quote-actions .negative-icon.active {
+  color: blueviolet;
+}
+    
+.quote-actions .vote-count {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+    
+.quote-actions .vote-count-rating {
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+}

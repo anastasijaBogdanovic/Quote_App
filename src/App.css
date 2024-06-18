@@ -1,0 +1,19 @@
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.App {
+  background-color: blueviolet;
+}

@@ -1,0 +1,41 @@
+﻿.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pagination a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: blueviolet;
+}
+
+.pagination .page-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+  font-weight: bold;
+  color: white;
+}
+
+.pagination .active {
+  background-color: blueviolet;
+}
