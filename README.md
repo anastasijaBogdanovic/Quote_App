@@ -9,4 +9,5 @@ Install the following packages to set up the environment for running the project
 
 
 The back-end application can be started with the command: `dotnet run`
+
 The front-end application is started with the command: `npm start`
